@@ -18,12 +18,12 @@ class AppTheme {
       TextStyle(fontFamily: "FontAwesome-Solids");
 
   // ── Colors ──────────────────────────────────────────────────────────────────
-  static const themeColor = Color(0xFF0A040C);
-  static const primaryColor1 = Color(0xFFDAEAF7);
-  static const primaryColor2 = Color.fromARGB(255, 242, 231, 240);
-  static const accentColor1 = Color(0xFF0EA5E0);
-  static const accentColor1light = Color(0xFF18C9ED);
-  static const accentColor2 = Color(0xFFFE385E);
+  static const themeColor = Color(0xFF000000);
+  static const primaryColor1 = Color(0xFFF2F2F2);
+  static const primaryColor2 = Color.fromARGB(255, 255, 249, 196);
+  static const accentColor1 = Color(0xFFFFEA00);
+  static const accentColor1light = Color(0xFFFFF176);
+  static const accentColor2 = Color(0xFFFFE600);
   static const successColor = Color(0xFF5EFF43);
 
   // ── Theme Data ───────────────────────────────────────────────────────────────
@@ -32,9 +32,9 @@ class AppTheme {
       primary: accentColor2,
       secondary: accentColor1,
       surface: themeColor,
-      surfaceContainerHighest: Color(0xFF1A111B),
-      onPrimary: primaryColor1,
-      onSecondary: primaryColor1,
+      surfaceContainerHighest: Color(0xFF141414),
+      onPrimary: Colors.black,
+      onSecondary: Colors.black,
       onSurface: primaryColor1,
     );
 
@@ -99,7 +99,7 @@ class AppTheme {
         backgroundColor: WidgetStatePropertyAll(themeColor),
       ),
       popupMenuTheme: const PopupMenuThemeData(
-        color: Color.fromARGB(255, 23, 18, 25),
+        color: Color.fromARGB(255, 20, 20, 20),
         textStyle: TextStyle(color: primaryColor1),
       ),
       dropdownMenuTheme: const DropdownMenuThemeData(
